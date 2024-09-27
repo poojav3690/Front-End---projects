@@ -50,7 +50,6 @@ article {
 section::after {
   content: "";
   display: table;
-  height: auto;
   clear: both;
 }
 
@@ -60,14 +59,13 @@ footer {
   padding: 10px;
   text-align: center;
   color: white;
-  float: bottom;
 }
 
 /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
 @media (max-width: 600px) {
   nav, article {
     width: 100%;
-    height: 100%;
+    height: auto;
   }
 }
 </style>
@@ -85,26 +83,27 @@ footer {
 <section>
   <nav>
     <ul>
-      <li><a href="Articles.html">My Profile</a></li><br>
+      <li><a href="Articles.html">Articles</a></li><br>
       <li><a href="Home.html">Education</a></li><br>
       <li><a href="Projects.html">Projects</a></li><br>
       <li><a href="Contact.html">Contact</a></li>
-      <div><h3>Interpersonal Skills</h3>
-        <ul> <li>- Problem Solving & Analytical skills</li>
-        <li>- Proficient Communication </li>
-        
+      <div><h3>SKILLS</h3><ul> <li>- HTML</li>
+        <li>- CSS</li>
+        <li>- SQL</li>
+        <li>- Python</li></ul>
        
     </div>
     </ul>
   </nav>
   
   <article>
-    <h1>Profile</h1>
-    
-    <ul><li>Location : Chennai</li><br>
-        <li>DOB : 06-10-2002</li><br>
-        <li>Hobbies : Reading, Surfing internet, Journaling.</li></ul>
-    
+    <h1>EDUCATION</h1>
+    <p>CSI BAIN School - Kilpauk</p>
+    <ul><li>SSLC : 89.2 % [2017-2018]</li>
+        <li>HSLC : 76.4 % [2019-2020]</li></ul>
+    <p>TJS Engineering College</p>
+    <ul><li>Degree : B.E. Computer Science Engineering</li>
+        <li>CGPA : 8.3 [2020-2024]</li></ul>
   </article>
 </section>
 
